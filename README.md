@@ -4,7 +4,7 @@ A deep learning system that reconstructs **intelligible, speaker-preserving spee
 
 Built and trained entirely on a **free-tier Google Colab T4 GPU**.
 
-![Model Architecture](images/model_architecture.png)
+
 
 ---
 
@@ -33,7 +33,6 @@ The output audio **sounds like the original speaker** — vocal identity is pres
 | **LSP Decoder** | MLP 128→64→17 → auxiliary (training-only regulariser) |
 | **Loss** | Weighted MSE: λ_SP=600, λ_AP=50, λ_F0=10, λ_VUV=10, λ_LSP=1 |
 
-![System Pipeline](images/system_pipeline.png)
 
 ---
 
