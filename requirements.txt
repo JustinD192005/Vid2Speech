@@ -1,0 +1,10 @@
+torch>=1.12.0
+librosa>=0.9.0
+soundfile>=0.12.0
+opencv-python-headless>=4.5.0
+pysptk>=0.2.0
+pyworld>=0.3.0
+tqdm>=4.60.0
+matplotlib>=3.5.0
+scipy>=1.7.0
+numpy>=1.21.0
