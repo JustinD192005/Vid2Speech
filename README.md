@@ -46,17 +46,16 @@ Trained for 100 epochs on 5 speakers (s1–s5) from the GRID corpus.
 
 ### Sample Reconstruction (GT vs Predicted)
 
-| GT MFSC | Predicted MFSC |
-|---------|----------------|
-| ![GT](images/sample_comparison.png) | Formant bands align correctly; temporal detail is smoother due to MSE regression |
+<img width="1589" height="1180" alt="image" src="https://github.com/user-attachments/assets/80e3e937-877f-4790-845b-12f066de490f" />
+
 
 **Key findings:**
-- ✅ Speaker identity preserved in every sample
-- ✅ Voicing structure (silence vs speech) correctly recovered
-- ✅ Formant positions match ground truth
-- ⚠️ Audio sounds robotic (MSE temporal smearing + WORLD excitation)
-- ⚠️ F0 peaks underestimated by ~20-25%
-- ⚠️ Silence regions partially filled due to VUV mask leakage
+- Speaker identity preserved in every sample
+- Voicing structure (silence vs speech) correctly recovered
+- Formant positions match ground truth
+- Audio sounds robotic (MSE temporal smearing + WORLD excitation), leading to over-smoothed signals where the predicted waveform does not closely match the original waveform
+- F0 peaks underestimated by ~20–25%
+- Silence regions partially filled due to VUV mask leakage
 
 ---
 
