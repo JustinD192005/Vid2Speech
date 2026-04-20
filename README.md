@@ -163,12 +163,6 @@ vid2voc/
 
 ---
 
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
----
-
 ## Acknowledgements
 
 - [GRID Corpus](https://spandh.dcs.shef.ac.uk/gridcorpus/) by Cooke et al.
